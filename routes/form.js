@@ -5,4 +5,4 @@ router.get('/form', (req, res) => {
 	res.send('hello User ');
 });
 
-export default router;
+module.exports = router;
